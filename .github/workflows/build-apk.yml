@@ -32,4 +32,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: SpotifyFloatLyrics-debug
-          path: app/build/outputs/a
+          path: app/build/outputs/apk/debug/*.apk
