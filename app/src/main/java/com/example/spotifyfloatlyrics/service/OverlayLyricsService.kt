@@ -134,7 +134,7 @@ class OverlayLyricsService : Service() {
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("Spotify Float Lyrics")
             .setContentText(content)
-            .setSmallIcon(R.mipmap.ic_launcher)
+            .setSmallIcon(R.drawable.ic_logo)
             .setOngoing(true)
             .build()
     }
